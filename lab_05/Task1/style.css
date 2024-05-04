@@ -1,0 +1,35 @@
+*
+{
+    text-align: center;
+}
+
+.container
+{
+    margin-top: 100px;
+    position: relative;   
+    display: inline-block;
+    border: 7px solid lightgray;
+}
+
+img 
+{
+    display: block;
+}
+
+.border
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+    border: 10px solid pink;
+    z-index: -1;
+}
+
+.top
+{
+    margin: 5px;
+    z-index:1;
+    border-top: transparent;
+    border-bottom: transparent;
+}
