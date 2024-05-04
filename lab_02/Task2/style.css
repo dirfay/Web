@@ -1,0 +1,29 @@
+* 
+{
+    font-size: 24px;
+}
+
+div ul li
+{
+    list-style-image: url("./images/arrow-right_16.png");
+}
+
+ul.snow li
+{
+    list-style-image: url("./images/snowflake_16.png");
+}
+
+ul.leaf li
+{
+    list-style-image: url("./images/leaf_g_16.png");
+}
+
+ul.sun li
+{
+    list-style-image: url("./images/sun_16.png");
+}
+
+ul.fall li
+{
+    list-style-image: url("./images/leaf_y_16.png");
+}

@@ -1,0 +1,26 @@
+div
+{
+    display: inline-block;
+    width: 300px;
+    background: rgb(246, 156, 171);
+    padding: 1px 0px;
+} 
+
+ol
+{
+    width: 200px;
+    margin-left: 15px;
+    padding-left: 20px;
+    list-style-position: outside;
+    background-color: rgb(239, 114, 135); 
+}
+
+li
+{
+    height:1.5rem;
+    text-align: center;
+    width:fit-content;
+    margin: 0px;
+    background: rgb(197, 83, 94);
+    margin-bottom: 10px;
+}
