@@ -1,0 +1,48 @@
+.container {
+    width: 240px;
+    background-color: #f0f0f0; /* колір фону на власний розсуд */
+    border: 2px solid #999; /* border контейнера на власний розсуд */
+    border-radius: 10px; /* border-radius контейнера на власний розсуд */
+    padding: 10px;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px; /* задати параметри шрифтів для властивостей */
+}
+
+.manufacturer {
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.edit_button, .delete_button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit_button {
+    background-color: #007bff; /* кольори кнопок вибрати на власний розсуд */
+    color: #fff;
+    border: 2px solid #007bff;
+}
+
+.delete_button {
+    background-color: #ff0000; /* колір кнопки “Delete” повинен асоціюватися з «тривогою» */
+    color: #fff;
+    border: 2px solid #ff0000;
+}
+
+.edit_button:hover, .delete_button:hover {
+    filter: brightness(80%); /* при наведенні – кнопка повинна змінювати свій вигляд */
+}
