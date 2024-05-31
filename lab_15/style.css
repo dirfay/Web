@@ -1,0 +1,33 @@
+.container
+{
+    display: inline-block;
+    height: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.cont
+{
+    display: inline-block;
+    height: 150px;
+    width: 250px;
+    margin: 15px;
+    transform: translateY(180%);
+}
+
+#day, #hours, #minutes, #seconds
+{
+    height: 70%;
+    width: 100%;
+    background-color: lightskyblue;
+    font-size: 84px;
+}
+
+p
+{
+    margin:0;
+    height:30%;
+    width: 100%;
+    font-size: 36px;
+    background-color: lightgray;
+}
