@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: lightgray;">
+
+        </div>
+        <div class="title">
+            <p><b>CREDIT CARD DETAILS</b></p>
+        </div>
+
+        <div class="card-number">
+            <label for="cardNumber">Card Number</label>
+            <p>
+                <input id="cardNumber" type="number" placeholder="1234 5678 9012 3456" pattern="\d{4}-\d{4}-\d{4}-\d{4}">
+            </p>
+        </div>
+
+        <div class="name">
+            <label for="nameOnCard">Name On Card</label>
+            <p>
+                <input id="nameOnCard" type="text" placeholder="Name Surname">
+            </p>
+        </div>
+
+        <div class="date">
+            <label>Expiry Date</label>
+            <p>
+                <input type="number" placeholder="02" pattern="[1-12]{1}">
+                <input type="number" placeholder="2017">
+            </p>
+        </div>
+
+        <div class="CVV">
+            <label>CCV / CVN</label>
+            <p><input type="password" placeholder="***" pattern="[0-9]{3}"></p>
+        </div>
+
+        <div class="image">
+            <img src="./images/moon_flag.png">
+        </div>
+        <div class="left-column"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+.container
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 150px 80px 80px 80px 150px 150px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 3px 3px 5px;
+}
+
+.title-reg
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.title-pers
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.title-reg, .title-pers
+{
+    font-size: 44px;
+}
+
+.username, .email,
+.password, .name, .gender-date
+{
+    grid-column: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.username
+{
+    grid-row: 2;
+}
+
+.email
+{
+    grid-row: 3;
+}
+
+.password
+{
+    grid-row: 4;
+}
+
+.terms-offers
+{
+    grid-column: 1;
+    grid-row: 5;
+    align-content: center;
+}
+
+.bottom-line
+{
+    border-bottom: 2px solid gray;
+}
+
+.right-line
+{
+    grid-column: 2;
+    grid-row: 5;
+}
+
+.submit-button
+{
+    grid-column: 2;
+    grid-row: 6;
+    padding-left: 75%;
+    align-content: center;
+}
+
+.name
+{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.gender-date
+{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+button
+{
+    height: 40px;
+    width: 140px;
+    font-size: 28px;
+    text-align: center;
+    background-color:lightseagreen;
+    border: 1px solid rgb(33, 41, 189);
+    border-radius: 15px;
+}
+
+input, select
+{
+    height: 40%;
+    margin-left: 15px;
+    border:none;
+    border-bottom: 2px solid gray;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    outline: none;
+}

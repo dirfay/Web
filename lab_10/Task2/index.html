@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <p>NAS options</p>
+        </div>
+
+        <div class="nas-dev">
+            <p><label for="dev">Developer</label></p>
+            <p><input id="dev" type="text" name="dev"></p>
+        </div>
+
+        <div class="nas-cpu">
+            <p><label for="cpu">CPU</label></p>
+            <p><input id="cpu" type="text" name="cpu"></p>
+        </div>
+
+        <div class="nas-ram">
+            <p><label for="ram">RAM, GBs</label></p>
+            <p><input id="ram" type="number" name="ram"></p>
+        </div>
+
+        <div class="nas-slots">
+            <p><label for="slots">Slots For Disks</label></p>
+            <p><input id="slots" type="number" name="slots"></p>
+        </div>
+
+        <div class="nas-lan">
+            <p><label for="lans">Amount Of LANs</label></p>
+            <p><input id="lans" type="number" name="lans"></p>
+        </div>
+
+        <div class="nas-img">
+            <fieldset><input type="image"></fieldset>
+        </div>
+        
+        <div class="nas-selectImg">
+            <fieldset>
+                <p for="img">Select Image File</p>
+                <p><input id="img" type="file" pattern="*.png" name="img"></p>
+            </fieldset>
+        </div>
+
+        <div class="close-button">
+            <button type="reset" value="reset">X</button>
+        </div>
+
+        <div class="submit-button">
+            <button type="submit" value="submit">Confirm</button>
+        </div>
+    </div>
+</body>
+</html>

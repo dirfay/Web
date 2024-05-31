@@ -1,0 +1,73 @@
+body
+{
+    padding-top: 5%;
+    padding-left: 35%;
+    background-color: rgba(0,0,0,0.495);
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 8% 10% 10% 10% 10% 10% 24% 10% 8%;
+
+    width: 500px;
+    height: 650px;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+p
+{
+    margin: 0;
+}
+
+.title
+{
+    grid-column: 1;
+    grid-template-rows: 1;
+    color: rgb(56, 131, 212);
+    padding-left: 15px;
+    font-size: 30px;
+    align-content: center;
+}
+
+.close-button
+{
+    grid-column: 2;
+    grid-row: 1;
+    align-content: center;
+}
+
+.close-button button
+{
+    height: 80%;
+    width: 80%;
+    font-size: 32px;
+}
+
+.title, .close-button
+{
+    border-bottom: 2px solid rgba(100, 99, 99, 0.495);
+}
+
+.nas-dev, .nas-cpu, .nas-ram,
+.nas-slots, .nas-lan, .nas-img,
+.nas-selectImg, .submit-button
+{
+    font-size: 20px;
+    grid-column: 1 /span 2;
+    align-content: center;
+    text-align: center;
+}
+
+.submit-button button
+{
+    margin-top: 5px;
+    width: 40%;
+    height: 80%;
+    font-size: 24px;
+    color:aqua;
+    border-color: aqua;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
