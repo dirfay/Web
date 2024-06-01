@@ -1,0 +1,42 @@
+*
+{
+    text-align: center;
+    color:white;
+}
+
+.container
+{
+    position:relative;
+    width:100%;
+    height: 40%;
+    overflow: auto;
+    background: blue;
+    margin: 10px 0px;
+    border: 2px solid darkblue;
+}
+
+.menu, .title, .additional, .end
+{
+    position:relative;
+    float:left;
+    width: calc(50% - 2px); 
+}
+
+.title, .end
+{
+    float:right;
+    border-left: 2px solid darkblue;
+}
+
+.end
+{
+    float:inline-end
+}
+
+.content
+{
+    clear: both;
+    position: relative;
+    float: none;
+    width: calc(100% - 4px);
+}

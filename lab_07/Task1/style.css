@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    position: relative;
+    margin: 10px 10px 10px 10px;
+    height: 100%;
+    width:99%;
+}
+
+img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.photo
+{
+    margin: 5px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 960px) {
+    .photo
+    {
+        float:left;
+        position: relative;
+        width: 30%;
+        height: fit-content;
+        transform: translateX(13%);
+    }
+}  
+
+@media screen and (min-width: 640px) and (max-width: 959px){
+    .photo
+    {
+        float:left;
+        position: relative;
+        width: 45%;
+        height: fit-content;
+        transform: translateX(7%);
+    }
+}  
+
+@media screen and (max-width: 639px){
+    .photo
+    {
+        float:left;
+        position: relative;
+        width: 96%;
+        height: fit-content;
+    }
+}
+
+
